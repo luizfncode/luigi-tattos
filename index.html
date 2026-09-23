@@ -43,9 +43,8 @@
 </div>
 
 <section class="hero">
-  <div class="hero-bg" id="heroBg"></div>
-  <div class="hero-portrait">
-    <img data-img="images/hero" alt="Tatuagem realista de leão, braço fechado, preto e cinza — trabalho de Luigi Tattoos">
+  <div class="hero-bg" id="heroBg">
+    <img class="hero-bg-img" data-img="images/hero" alt="Tatuagem realista de leão, braço fechado, preto e cinza — trabalho de Luigi Tattoos">
   </div>
   <div class="container hero-content">
     <span class="eyebrow reveal">TATUADOR — SÃO PAULO</span>
@@ -60,6 +59,25 @@
 </section>
 
 <section class="editorial" id="portfolio">
+
+  <!-- MOBILE — carrossel único com todas as imagens -->
+  <div class="mobile-portfolio">
+    <div class="mp-track">
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:24deg"></div><img data-img="images/scene-01" alt="Tatuagem em destaque"><span class="mp-cap">Precisão · Detalhe · Identidade</span></div>
+      <div class="mp-slide reveal-clip"><img data-img="images/hero" alt="Tatuagem realista de leão, braço fechado, preto e cinza"><span class="mp-cap">Realismo — Braço fechado</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:8deg"></div><img data-img="images/scene-02-b" alt="Detalhe de tatuagem"><span class="mp-cap">Realismo — Braço fechado</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:40deg"></div><img data-img="images/scene-03" alt="Tatuagem black and grey, peça grande"><span class="mp-cap">Black &amp; Grey</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:76deg"></div><img data-img="images/scene-04-a" alt="Tatuagem fine line"><span class="mp-cap">Fine Line</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:18deg"></div><img data-img="images/scene-04-b" alt="Tatuagem retrato realista"><span class="mp-cap">Retrato</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:52deg"></div><img data-img="images/scene-04-c" alt="Tatuagem retrato realista"><span class="mp-cap">Retrato</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:30deg"></div><img data-img="images/scene-05" alt="Tatuagem realista, imagem de impacto"><span class="mp-cap">Cada peça conta uma história</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:88deg"></div><img data-img="images/scene-06-a" alt="Tatuagem animal"><span class="mp-cap">Animais</span></div>
+      <div class="mp-slide reveal-clip"><div class="pf-art" style="--ang:46deg"></div><img data-img="images/scene-06-b" alt="Tatuagem lettering"><span class="mp-cap">Lettering</span></div>
+    </div>
+  </div>
+
+  <!-- DESKTOP — sequência editorial em cenas -->
+  <div class="desktop-scenes">
 
   <!-- SCENE 01 — imagem de abertura + palavras -->
   <div class="scene sc-01">
@@ -121,6 +139,8 @@
         <div class="sc-media b reveal-clip" data-speed="-0.05"><div class="pf-art" style="--ang:46deg"></div><img data-img="images/scene-06-b" alt="Tatuagem lettering"></div>
       </div>
     </div>
+  </div>
+
   </div>
 
   <p class="pf-note reveal container">* Composições acima são placeholders de direção de arte. Envie as fotos reais, uma por uma, para substituir cada bloco.</p>
